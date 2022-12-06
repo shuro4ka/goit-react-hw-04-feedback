@@ -1,3 +1,4 @@
+import { GlobalStyle } from "./GlobalStyle";
 import { Component } from "react";
 import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
 import { Statistics} from "./Statistics/Statistics";
@@ -48,6 +49,7 @@ export class App extends Component {
             />
           </Section>
         )}
+         <GlobalStyle/>
       </>
     );
   }
