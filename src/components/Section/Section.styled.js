@@ -17,4 +17,3 @@ export const TitleTwo = styled.h2`
     text-shadow: 10px 1px 1px silver,
     -1px 1px 1px silver; 
 `;
-

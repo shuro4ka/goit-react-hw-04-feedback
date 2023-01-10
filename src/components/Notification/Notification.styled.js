@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const NotificationMessage = styled.p`
    font-size: 32px;
    font-weight: bold;
@@ -11,10 +10,8 @@ export const NotificationMessage = styled.p`
     transition: all .5s; 
     background-color: lightgray;
     text-align: center;
-    width: 500px;
     margin: auto;
     margin-top: 50px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     padding: 15px;
-  
 `;
